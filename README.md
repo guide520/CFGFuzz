@@ -110,4 +110,8 @@ The test file contains the test program
  
  `python run.py <Binary program> <fuzzer_output_dir>`
   
+We integrate that into shellphuzz as well
 
+ ` cd fuzzer`
+ 
+ `shellphuzz -d 1 -c 1 -w <The output path> -C --length-extension 4 <Program execution command> `
