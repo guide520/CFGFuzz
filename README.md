@@ -115,3 +115,5 @@ We integrate that into shellphuzz as well
  ` cd fuzzer`
  
  `shellphuzz -d 1 -c 1 -w <The output path> -C --length-extension 4 <Program execution command> `
+ ## Known issues
+ We just gave you the simplest solution. For complex, different kinds of programs. It needs to be developed by users themselves.
